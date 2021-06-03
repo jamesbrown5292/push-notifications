@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "372696526305",
+    "project_id": "notificationsapp-81eb4",
+    "storage_bucket": "notificationsapp-81eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372696526305:android:ac7098eb186584b7ea76a0",
+        "android_client_info": {
+          "package_name": "com.notificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372696526305-5f3bfferrl5bvd6669brpn3iftu12jmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Y25X2ZUW0Azn_oMyuQTe0PhkO-HEV3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372696526305-5f3bfferrl5bvd6669brpn3iftu12jmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
