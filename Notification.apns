@@ -1,0 +1,14 @@
+
+{
+   "Simulator Target Bundle": "org.reactjs.native.example.notificationApp",
+
+   "aps": {
+       "badge": 0,
+       "alert": {
+           "title": "Push Notification Test",
+           "subtitle": "Hey! 👋",
+           "body": "Is this working?",
+       },
+      "sound":"default"
+   }
+}
