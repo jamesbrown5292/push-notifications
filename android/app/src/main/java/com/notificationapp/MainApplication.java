@@ -1,5 +1,6 @@
 package com.notificationapp;
-
+import android.app.NotificationManager;
+import android.app.NotificationChannel;
 import android.app.Application;
 import android.content.Context;
 import android.os.Build;
@@ -59,6 +60,7 @@ public class MainApplication extends Application implements ReactApplication {
         CharSequence name = getString(R.string.channel_name);
         String description = getString(R.string.channel_description);
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
+        String CHANNEL_ID = "notificationsChannel";
         NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
         channel.setDescription(description);
         // Register the channel with the system; you can't change the importance
